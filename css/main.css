@@ -96,6 +96,100 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*Start global Classes*/
+
+/* nav flex */
+.flex
+{
+  display: flex;
+  justify-content: flex-end;
+}
+/* img google center */
+.imgcenter
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+/* search links */
+.btn
+{
+  background-color: #DADDE3;
+  color: black;
+  padding: 0.5em 1em;
+  border: 1px #DADDE3 solid;
+  text-decoration: none;
+}
+/* center links search */
+.flexcenter
+{
+  display: flex;
+  justify-content: center;
+}
+/* footer up flex */
+.footerfrance
+ {
+   border: 1px #DADDE3 solid;
+   height: 4em;
+   background-color: #DADDE3;
+   margin-top: 450px;
+ }
+/* footer down flex */
+#flexfooter
+{
+  display: flex;
+  height: 4em;
+  border: 1px #DADDE3 solid;
+  background-color: #DADDE3;
+  margin-bottom: 0px;
+}
+
+.bouge:nth-child(1)
+{
+  flex: 4;
+}
+.bouge::nth-child(3)
+{
+    flex: 1;
+}
+
+/*End global Classes*/
+
+/* ################################################################################ */
+
+/*Start common rules*/
+
+ul
+ {
+  list-style-type: none;
+ }
+
+ li
+ {
+   margin-right: 9px;
+ }
+
+ div p
+ {
+   border: 1px #C5CBD3 solid;
+   box-shadow: 1px 2px 0.3px #C5CBD3;
+   height: 2em;
+   width: 400px;
+   margin-left: 640px;
+ }
+
+ div p
+ {
+   margin-bottom: 15px;
+ }
+
+ a
+ {
+   color: black;
+   text-decoration: none;
+ }
+
+/*End common rules*/
 
 
 
